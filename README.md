@@ -9,9 +9,9 @@
 
 ## Limits Service
 #### Url
-'''
+```
 http://localhost:8080/limits
-'''
+```
 
 #### Summary
 Connect to Spring Cloud Config Server, set the property file to activate
@@ -26,7 +26,15 @@ from and get properties from the Spring Cloud Config Server
 
 ## Spring Cloud Config Server
 #### Url
-'''
+```
 http://localhost:8888/limits-service/default
 http://localhost:8888/limits-service/dev
-'''
+```
+
+#### Summary
+
+
+#### Dependencies
+* DevTools
+* Config Server
+
